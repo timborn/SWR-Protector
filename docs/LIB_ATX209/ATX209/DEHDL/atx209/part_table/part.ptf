@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATX209'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ATX209" (!) = "", "ATX209", "Other", "", "", "Panasonic DPDT Non-Latching Relay PCB Mount, 5V dc Coil, 2 A", "https://pdf1.alldatasheet.com/datasheet-pdf/view/117941/NAIS/TX2-5V.html", "8.2 mm"
+END_PART
+
+END.

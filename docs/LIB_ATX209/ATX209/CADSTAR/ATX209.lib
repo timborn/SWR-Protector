@@ -1,0 +1,16 @@
+.ATX209 :1 ;Panasonic DPDT Non-Latching Relay PCB Mount, 5V dc Coil, 2 A
+ATX209
+*STM K
+*NGS
+*PLB 1="+" 3="NC_1" 4="COM_1" 5="NO_1" 8="NO_2" 9="COM_2" 10="NC_2" 12="-"
+*MXP 8
+*DFN ATX209
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ATX209)
+~!Link Datasheet (https://pdf1.alldatasheet.com/datasheet-pdf/view/117941/NAIS/TX2-5V.html)
+~!Height (8.2mm)
+~!3D_Model (ATX209)
+ATX209
+1.1!U 3.1!U 4.1!U 5.1!U 8.1!U 9.1!U 10.1!U 12.1!U 

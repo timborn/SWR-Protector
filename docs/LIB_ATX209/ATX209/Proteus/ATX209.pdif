@@ -1,0 +1,145 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ATX209"
+   (description "Panasonic DPDT Non-Latching Relay PCB Mount, 5V dc Coil, 2 A")
+   (family "RLY")
+   (package "ATX209")
+   (attribute "Datasheet Link" "https://pdf1.alldatasheet.com/datasheet-pdf/view/117941/NAIS/TX2-5V.html")
+   (attribute "Geometry.Height" "8.2mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "ATX209")
+   (gate
+    (symbol "ATX209")
+    (pin "+" 1 PS)
+    (pin "NC_1" 3 PS)
+    (pin "COM_1" 4 PS)
+    (pin "NO_1" 5 PS)
+    (pin "NO_2" 8 PS)
+    (pin "COM_2" 9 PS)
+    (pin "NC_2" 10 PS)
+    (pin "-" 12 PS)
+   )
+  )
+  (symbol "ATX209"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ATX209"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.15 6.24)
+      (pt 13.85 6.24)
+      (pt 13.85 -1.16)
+      (pt -1.15 -1.16)
+      (pt -1.15 6.24))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.15 -1.16)
+      (pt 13.85 -1.16)
+      (pt 13.85 6.24)
+      (pt -1.15 6.24)
+      (pt -1.15 -1.16))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 -2.16)
+      (pt 14.85 -2.16)
+      (pt 14.85 7.24)
+      (pt -4 7.24)
+      (pt -4 -2.16))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 0)
+      (arc (pt -3.000 0.000) (pt -3.000 0.050) (pt -2.900 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -3.000 0.050) (pt -2.900 -0.050) (start 180.0) (sweep .0))
+      (pt -3 0)
+      (arc (pt -3.000 0.000) (pt -3.000 0.050) (pt -2.900 -0.050) (start 180.0) (sweep 180.0))
+      (pt -2.9 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 4 (pt 7.620 0.000) (padstack 0))
+   (leg 5 (pt 10.160 0.000) (padstack 0))
+   (leg 8 (pt 10.160 5.080) (padstack 0))
+   (leg 9 (pt 7.620 5.080) (padstack 0))
+   (leg 10 (pt 5.080 5.080) (padstack 0))
+   (leg 12 (pt 0.000 5.080) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "ATX209.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

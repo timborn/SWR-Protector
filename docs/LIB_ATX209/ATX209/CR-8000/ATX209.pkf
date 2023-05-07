@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ATX209"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ATX209")
+        (spec "default")
+    )
+)

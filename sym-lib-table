@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ATX209")(type "KiCad")(uri "${KIPRJMOD}/docs/LIB_ATX209/ATX209/KiCad/ATX209.kicad_sym")(options "")(descr ""))
+)

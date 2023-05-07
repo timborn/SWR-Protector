@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ATX209
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2020-02-07 15:29:56
+Downloaded=2023-05-07 02:50:56
+3D=Y
