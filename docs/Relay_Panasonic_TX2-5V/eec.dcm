@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TX2-5V
+D TX2-5V
+F https://industrial.panasonic.com/ac/cdn/e/control/relay/signal/catalog/mech_eng_tx.pdf
+$ENDCMP
+# end doc library

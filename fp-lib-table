@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/docs/Relay_Panasonic_TX2-5V/eec.pretty")(options "")(descr ""))
+)
