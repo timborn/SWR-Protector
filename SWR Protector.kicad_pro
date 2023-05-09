@@ -440,9 +440,9 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.5,
-        "via_diameter": 2.0,
+        "via_diameter": 1.5,
         "via_drill": 0.8,
-        "wire_width": 98
+        "wire_width": 39
       }
     ],
     "meta": {
@@ -455,7 +455,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "12V",
+        "netclass": "Default",
         "pattern": "+12V"
       }
     ]
