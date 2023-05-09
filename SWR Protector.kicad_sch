@@ -6,7 +6,7 @@
 
   (title_block
     (title "SWR Protector WA7GIL")
-    (date "2023-05-06")
+    (date "2023-05-08")
     (rev "0.5")
   )
 
@@ -1935,7 +1935,7 @@
     (property "Value" "12:1 ???" (at 83.82 72.39 90)
       (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left))
     )
-    (property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D18.0mm" (at 99.06 71.12 0)
+    (property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D9.0mm_Amidon-T30" (at 99.06 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 99.06 71.12 0)
@@ -2153,7 +2153,7 @@
     (property "Value" "10K" (at 119.38 147.955 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 121.92 146.05 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" (at 121.92 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 146.05 0)
@@ -2206,7 +2206,7 @@
     (property "Value" "1:12" (at 80.01 47.6377 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D18.0mm" (at 73.66 45.72 0)
+    (property "Footprint" "Transformer_THT:Transformer_Toroid_Horizontal_D9.0mm_Amidon-T30" (at 73.66 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 45.72 0)
