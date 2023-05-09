@@ -43,3 +43,11 @@ My notes to myself about problems, solutions, ideas, questions, ...
 22. switched power should be on same side as transceiver 
 23: DONE: junction dot got huge when I added wider traces.
     Fix is File / Schematic Setup / Formatting / Junction dot size: smallest
+24. TODO: what is correct placement for barrel jack on edge of board?
+25. TODO: what is correct placement for BNC on edge of board?
+26. TODO: orient toroids (transformers) on edge rather than flat
+    Found this in someone else's design:
+    FT37-43
+      <footprint>Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm
+    It only had two pads, but it might form the basis for a custom part.
+27. TODO: when it's time to mfgr, review fab specs.  What's "fiducial"?

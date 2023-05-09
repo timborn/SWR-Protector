@@ -5,4 +5,5 @@
   (lib (name "Relay_Panasonic_TX2-5V")(type "KiCad")(uri "/Volumes/BlueMountain/Users/timborn/Downloads/Relay_Panasonic_TX2-5V")(options "")(descr ""))
   (lib (name "IC_ON Semiconductor_LM358AN")(type "KiCad")(uri "/Volumes/BlueMountain/Users/timborn/Downloads/IC_ON Semiconductor_LM358AN")(options "")(descr ""))
   (lib (name "KiCAD")(type "KiCad")(uri "/Volumes/BlueMountain/Users/timborn/Downloads/ul_LM358/KiCAD/2023-05-08_00-02-39/footprints.pretty")(options "")(descr ""))
+  (lib (name "FT37-43")(type "KiCad")(uri "${KIPRJMOD}/components/FT37-43.pretty")(options "")(descr ""))
 )
