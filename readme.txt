@@ -23,6 +23,7 @@ My notes to myself about problems, solutions, ideas, questions, ...
 13. TODO: approriate mounting holes for #12
 14. TODO: several parts missing 3D images: barrel jack, relay, DIPs
 15. TODO: barrel jack should be replaced with 2-pin variety
+15a. DONE: barrel jack has 3D model
 16. TODO: consider V Refl and V Fwd test points coming out on a header
     along with +5 and GND to make micro easier to integrate.
 17: RULE: PCB layout on 25 or 50 mils
