@@ -20,9 +20,11 @@ My notes to myself about problems, solutions, ideas, questions, ...
 11. A common ½W resistor measures about 9.2mm across, 
     while a smaller ¼W resistor is about 6.3mm long.
 12. TODO: find a board size that lends itself to a box
+    look for Hammond 1590 series die cast aluminum
 13. TODO: approriate mounting holes for #12
-14. TODO: several parts missing 3D images: barrel jack, relay, DIPs
-15. TODO: barrel jack should be replaced with 2-pin variety
+14. DONE: several parts missing 3D images: barrel jack, relay, DIPs
+15. DONE: barrel jack should be replaced with 2-pin variety
+    ended up using 3-pin for footprint and model as Ron says that's common
 15a. DONE: barrel jack has 3D model
 16. TODO: consider V Refl and V Fwd test points coming out on a header
     along with +5 and GND to make micro easier to integrate.
