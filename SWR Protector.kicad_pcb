@@ -1102,9 +1102,14 @@
     (pad "2" thru_hole circle (at 5.025 5.025 270) (size 4 4) (drill 1.5) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Ext") (pintype "passive") (tstamp b520a089-7f69-468a-a4c0-b4c5a8db22e5))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/BNC_TEConnectivity_1478035_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+      (offset (xyz -14 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/models/connectors_rf/conn_rf.3dshapes/bnc_90_1-1337543-0.wrl"
+      (offset (xyz 0 7.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -2037,6 +2042,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/models/connectors_rf/conn_rf.3dshapes/bnc_90_1-1337543-0.wrl"
+      (offset (xyz 0 7.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
