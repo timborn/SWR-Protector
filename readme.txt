@@ -21,12 +21,14 @@ My notes to myself about problems, solutions, ideas, questions, ...
     while a smaller ¼W resistor is about 6.3mm long.
 12. TODO: find a board size that lends itself to a box
     look for Hammond 1590 series die cast aluminum
+    I don't think these die cast boxes will do.  Something with faceplates
+    will be easier to drill for BNC & barrel jacks, and assemble.
 13. TODO: approriate mounting holes for #12
 14. DONE: several parts missing 3D images: barrel jack, relay, DIPs
 15. DONE: barrel jack should be replaced with 2-pin variety
     ended up using 3-pin for footprint and model as Ron says that's common
 15a. DONE: barrel jack has 3D model
-16. TODO: consider V Refl and V Fwd test points coming out on a header
+16. DONE: consider V Refl and V Fwd test points coming out on a header
     along with +5 and GND to make micro easier to integrate.
 17: RULE: PCB layout on 25 or 50 mils
     "I highly recommend you do not use a grid other than 50 mils
@@ -35,7 +37,7 @@ My notes to myself about problems, solutions, ideas, questions, ...
     25 mil grid. (Silkscreen is a different story)"
     - https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all#editing-a-pcb-layout
     0.635mm = 25 mil, 1.27mm = 50 mil  
-18: TODO: ground plane fill top layer
+18: DONE: ground plane fill top layer
 19. TODO: when you get ground plane both size add tons of vias
 20. DONE: trace size 1mm; power net 2.5mm
     Fix: (in PCB editor)
@@ -54,3 +56,7 @@ My notes to myself about problems, solutions, ideas, questions, ...
       <footprint>Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm
     It only had two pads, but it might form the basis for a custom part.
 27. TODO: when it's time to mfgr, review fab specs.  What's "fiducial"?
+28. DONE: fix warnings about 'footprint does not match copy in library',
+    but in the process I lost my 3D models for several parts.  
+    Pulled them in again, but the barrel jack is not the correct part
+    for those holes (TODO).
