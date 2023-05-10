@@ -2191,7 +2191,7 @@
     (property "Value" "10K" (at 119.38 147.955 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" (at 121.92 146.05 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" (at 121.92 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 146.05 0)
