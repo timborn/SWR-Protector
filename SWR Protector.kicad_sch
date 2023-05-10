@@ -6,8 +6,8 @@
 
   (title_block
     (title "SWR Protector WA7GIL")
-    (date "2023-05-09")
-    (rev "0.6")
+    (date "2023-05-10")
+    (rev "0.7")
   )
 
   (lib_symbols
@@ -2098,7 +2098,7 @@
     (property "Value" "transceiver" (at 138.43 37.7582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal" (at 134.62 35.56 0)
+    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (at 134.62 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 134.62 35.56 0)
@@ -2595,7 +2595,7 @@
     (property "Value" "antenna" (at 44.45 37.7582 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal" (at 48.26 35.56 0)
+    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (at 48.26 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 48.26 35.56 0)
