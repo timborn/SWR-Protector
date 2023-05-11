@@ -1,13 +1,13 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 46027dd5-036f-43c6-98e1-c4cfe473ecd7)
+  (uuid 5ddb5305-6e1d-4af3-a40a-20431dc1473c)
 
   (paper "USLetter")
 
   (title_block
     (title "SWR Protector WA7GIL")
-    (date "2023-05-10")
-    (rev "0.7")
+    (date "2023-05-11")
+    (rev "v0.8")
   )
 
   (lib_symbols
@@ -410,41 +410,6 @@
         (pin passive line (at 0 -5.08 90) (length 2.54)
           (name "Ext" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -936,35 +901,6 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
     (symbol "Regulator_Linear:LM78L05_TO92" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
@@ -1277,9 +1213,6 @@
   (junction (at 44.45 179.07) (diameter 0) (color 0 0 0 0)
     (uuid 13fef2fb-7840-41d6-b646-a53b3573be2e)
   )
-  (junction (at 57.15 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 1df6a09b-4431-443d-a139-8258409179ac)
-  )
   (junction (at 181.61 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 3b5e265f-0309-45c0-8ab2-a780312a5bb2)
   )
@@ -1309,9 +1242,6 @@
   )
   (junction (at 46.99 179.07) (diameter 0) (color 0 0 0 0)
     (uuid 9761a00d-d27b-43fd-bd26-05a2e809924f)
-  )
-  (junction (at 134.62 85.09) (diameter 0) (color 0 0 0 0)
-    (uuid 9b1a00dc-6fe5-4e2a-9834-6646c8f9f31c)
   )
   (junction (at 226.06 125.73) (diameter 0) (color 0 0 0 0)
     (uuid b14151b6-647e-40a6-b9ce-286af7583f0c)
@@ -1660,7 +1590,7 @@
     (fill (type none))
     (uuid 3a9963e3-7168-4854-8eb9-ab144149ee4b)
   )
-  (rectangle (start 232.41 15.24) (end 264.16 66.04)
+  (rectangle (start 232.41 15.24) (end 264.16 44.45)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 4e388b76-8fce-469a-a1d5-d13fae34d0ea)
@@ -1671,6 +1601,14 @@
     (uuid 642e1cc3-7f50-4231-807c-e7f1d71c0d94)
   )
 
+  (text "V Fwd" (at 101.6 96.52 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 054ab319-dd8e-45ea-958d-e96c7d5b52b8)
+  )
+  (text "V Refl" (at 99.06 96.52 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3a4880d7-4871-4b05-a47b-1d1aa0fb7b55)
+  )
   (text "+12V\ninput pwr" (at 29.21 180.34 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d3cc5d30-9029-4124-9cb2-0020f88c3e84)
@@ -1721,6 +1659,11 @@
           (reference "#PWR022") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR022") (unit 1)
+        )
+      )
     )
   )
 
@@ -1743,6 +1686,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -1772,6 +1720,11 @@
           (reference "C2") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "C2") (unit 1)
+        )
+      )
     )
   )
 
@@ -1784,7 +1737,7 @@
     (property "Value" "4K7" (at 152.4 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 152.4 141.732 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 152.4 141.732 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 152.4 143.51 0)
@@ -1795,6 +1748,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R1") (unit 1)
         )
       )
@@ -1823,6 +1781,11 @@
           (reference "#PWR012") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR012") (unit 1)
+        )
+      )
     )
   )
 
@@ -1848,6 +1811,11 @@
           (reference "#PWR08") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR08") (unit 1)
+        )
+      )
     )
   )
 
@@ -1860,7 +1828,7 @@
     (property "Value" "1N4007" (at 196.85 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 196.85 130.175 0)
+    (property "Footprint" "Diode_THT:D_DO-15_P3.81mm_Vertical_KathodeUp" (at 196.85 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (at 196.85 125.73 0)
@@ -1880,28 +1848,9 @@
           (reference "D1") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 234.95 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1f1dfbda-8eb8-467e-a781-85ee86341e6b)
-    (property "Reference" "H3" (at 237.49 56.515 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 237.49 59.055 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (at 234.95 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.95 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "H3") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1929,6 +1878,11 @@
           (reference "#PWR015") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR015") (unit 1)
+        )
+      )
     )
   )
 
@@ -1941,7 +1895,7 @@
     (property "Value" "51R" (at 44.45 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 44.45 62.738 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 44.45 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 60.96 0)
@@ -1952,6 +1906,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R5") (unit 1)
         )
       )
@@ -1982,6 +1941,11 @@
           (reference "U1") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "U1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2007,28 +1971,9 @@
           (reference "#PWR03") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 234.95 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 32ca2941-7c91-41f3-a5ca-477cf093445f)
-    (property "Reference" "H1" (at 237.49 46.355 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 237.49 48.895 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (at 234.95 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.95 46.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "H1") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2056,6 +2001,11 @@
           (reference "#PWR09") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR09") (unit 1)
+        )
+      )
     )
   )
 
@@ -2079,6 +2029,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "C1") (unit 1)
         )
       )
@@ -2110,6 +2065,11 @@
           (reference "J5") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "J5") (unit 1)
+        )
+      )
     )
   )
 
@@ -2122,7 +2082,7 @@
     (property "Value" "1N270" (at 53.34 66.675 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 50.8 64.77 0)
+    (property "Footprint" "Diode_THT:D_DO-15_P3.81mm_Vertical_KathodeUp" (at 50.8 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 64.77 0)
@@ -2142,28 +2102,9 @@
           (reference "D3") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 234.95 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3fa58a90-4730-40df-96c0-bd93a2ab2ca6)
-    (property "Reference" "H4" (at 237.49 61.595 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 237.49 64.135 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (at 234.95 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.95 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "H4") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2188,6 +2129,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR018") (unit 1)
         )
       )
@@ -2216,6 +2162,11 @@
           (reference "#PWR06") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR06") (unit 1)
+        )
+      )
     )
   )
 
@@ -2238,6 +2189,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR020") (unit 1)
         )
       )
@@ -2269,29 +2225,9 @@
           (reference "T2") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 134.62 85.09 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4d243b01-110e-4803-ac1e-f29dcdd5200c)
-    (property "Reference" "TP1" (at 137.16 89.027 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "V Fwd" (at 137.16 86.487 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" (at 139.7 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 139.7 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 096564b2-6ad4-4f63-82cb-882f2069931d))
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "TP1") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "T2") (unit 1)
         )
       )
     )
@@ -2306,7 +2242,7 @@
     (property "Value" "1N270" (at 137.16 66.675 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (at 134.62 64.77 0)
+    (property "Footprint" "Diode_THT:D_DO-15_P3.81mm_Vertical_KathodeUp" (at 134.62 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 134.62 64.77 0)
@@ -2323,6 +2259,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "D4") (unit 1)
         )
       )
@@ -2348,6 +2289,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR07") (unit 1)
         )
       )
@@ -2377,6 +2323,11 @@
           (reference "J3") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "J3") (unit 1)
+        )
+      )
     )
   )
 
@@ -2389,7 +2340,7 @@
     (property "Value" "LM358" (at 250.19 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KiCAD:LM358" (at 250.19 31.75 0)
+    (property "Footprint" "LM358:ON_Semiconductor-626-05-04_2015-P-MFG" (at 250.19 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 250.19 31.75 0)
@@ -2406,6 +2357,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "U2") (unit 2)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "U2") (unit 2)
         )
       )
@@ -2431,6 +2387,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR025") (unit 1)
         )
       )
@@ -2461,6 +2422,11 @@
           (reference "RV1") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "RV1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2488,6 +2454,11 @@
           (reference "J1") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "J1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2500,7 +2471,7 @@
     (property "Value" "51R" (at 142.24 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 142.24 62.738 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 142.24 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 142.24 60.96 0)
@@ -2511,6 +2482,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R6") (unit 1)
         )
       )
@@ -2542,6 +2518,11 @@
           (reference "T1") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "T1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2566,6 +2547,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "J2") (unit 1)
         )
       )
@@ -2594,29 +2580,9 @@
           (reference "#PWR014") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 57.15 88.9 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 731039ab-d8c0-4a6b-b386-ef4d302ab3e7)
-    (property "Reference" "TP2" (at 62.23 88.265 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "V Refl" (at 62.23 90.805 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" (at 57.15 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 57.15 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 713cd5d8-9a9a-4e94-b29c-19deb1ac3069))
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "TP2") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2646,6 +2612,11 @@
           (reference "Q1") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "Q1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2671,28 +2642,9 @@
           (reference "#PWR05") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 234.95 52.07 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 78238100-4602-4f8c-8686-afdc2dd9fc8e)
-    (property "Reference" "H2" (at 237.49 51.435 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 237.49 53.975 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4" (at 234.95 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.95 52.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "H2") (unit 1)
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2721,6 +2673,11 @@
           (reference "C4") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "C4") (unit 1)
+        )
+      )
     )
   )
 
@@ -2733,7 +2690,7 @@
     (property "Value" "100K" (at 45.72 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 45.72 81.788 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 45.72 81.788 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 80.01 0)
@@ -2744,6 +2701,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R3") (unit 1)
         )
       )
@@ -2772,6 +2734,11 @@
           (reference "#PWR030") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR030") (unit 1)
+        )
+      )
     )
   )
 
@@ -2797,6 +2764,11 @@
           (reference "#PWR021") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR021") (unit 1)
+        )
+      )
     )
   )
 
@@ -2809,7 +2781,7 @@
     (property "Value" "1K" (at 196.85 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 196.85 112.522 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 196.85 112.522 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 196.85 114.3 0)
@@ -2820,6 +2792,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R2") (unit 1)
         )
       )
@@ -2835,7 +2812,7 @@
     (property "Value" "red" (at 185.1025 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 186.69 114.3 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z9.0mm" (at 186.69 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 186.69 114.3 0)
@@ -2846,6 +2823,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "D2") (unit 1)
         )
       )
@@ -2874,6 +2856,11 @@
           (reference "#PWR017") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR017") (unit 1)
+        )
+      )
     )
   )
 
@@ -2886,7 +2873,7 @@
     (property "Value" "10K" (at 237.49 34.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 241.808 33.02 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 241.808 33.02 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 33.02 0)
@@ -2897,6 +2884,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R8") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R8") (unit 1)
         )
       )
@@ -2922,6 +2914,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR027") (unit 1)
         )
       )
@@ -2951,6 +2948,11 @@
           (reference "J4") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "J4") (unit 1)
+        )
+      )
     )
   )
 
@@ -2976,6 +2978,11 @@
           (reference "#PWR024") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR024") (unit 1)
+        )
+      )
     )
   )
 
@@ -2988,7 +2995,7 @@
     (property "Value" "ATX209" (at 204.47 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KiCad:ATX209" (at 193.04 233.35 0)
+    (property "Footprint" "ATX209:ATX209" (at 193.04 233.35 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/view/117941/NAIS/TX2-5V.html" (at 193.04 333.35 0)
@@ -3023,6 +3030,11 @@
           (reference "K2") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "K2") (unit 1)
+        )
+      )
     )
   )
 
@@ -3045,6 +3057,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR04") (unit 1)
         )
       )
@@ -3073,6 +3090,11 @@
           (reference "#PWR028") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR028") (unit 1)
+        )
+      )
     )
   )
 
@@ -3085,7 +3107,7 @@
     (property "Value" "10K" (at 237.49 27.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 241.808 25.4 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 241.808 25.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 25.4 0)
@@ -3096,6 +3118,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R7") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R7") (unit 1)
         )
       )
@@ -3124,6 +3151,11 @@
           (reference "#PWR013") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR013") (unit 1)
+        )
+      )
     )
   )
 
@@ -3146,6 +3178,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR011") (unit 1)
         )
       )
@@ -3174,6 +3211,11 @@
           (reference "#FLG01") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#FLG01") (unit 1)
+        )
+      )
     )
   )
 
@@ -3199,6 +3241,11 @@
           (reference "#PWR016") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR016") (unit 1)
+        )
+      )
     )
   )
 
@@ -3211,7 +3258,7 @@
     (property "Value" "LM358" (at 137.16 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KiCAD:LM358" (at 137.16 161.29 0)
+    (property "Footprint" "LM358:ON_Semiconductor-626-05-04_2015-P-MFG" (at 137.16 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 137.16 161.29 0)
@@ -3231,6 +3278,11 @@
           (reference "U2") (unit 3)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "U2") (unit 3)
+        )
+      )
     )
   )
 
@@ -3243,7 +3295,7 @@
     (property "Value" "LM358" (at 137.16 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KiCAD:LM358" (at 137.16 143.51 0)
+    (property "Footprint" "LM358:ON_Semiconductor-626-05-04_2015-P-MFG" (at 137.16 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at 137.16 143.51 0)
@@ -3260,6 +3312,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "U2") (unit 1)
         )
       )
@@ -3288,6 +3345,11 @@
           (reference "#PWR019") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR019") (unit 1)
+        )
+      )
     )
   )
 
@@ -3313,6 +3375,11 @@
           (reference "#PWR029") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR029") (unit 1)
+        )
+      )
     )
   )
 
@@ -3335,6 +3402,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR023") (unit 1)
         )
       )
@@ -3364,6 +3436,11 @@
           (reference "C3") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "C3") (unit 1)
+        )
+      )
     )
   )
 
@@ -3386,6 +3463,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR02") (unit 1)
         )
       )
@@ -3414,6 +3496,11 @@
           (reference "#PWR010") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR010") (unit 1)
+        )
+      )
     )
   )
 
@@ -3439,6 +3526,11 @@
           (reference "#FLG02") (unit 1)
         )
       )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#FLG02") (unit 1)
+        )
+      )
     )
   )
 
@@ -3451,7 +3543,7 @@
     (property "Value" "100K" (at 129.54 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 129.54 81.788 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (at 129.54 81.788 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 80.01 0)
@@ -3462,6 +3554,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "R4") (unit 1)
         )
       )
@@ -3487,6 +3584,11 @@
     (instances
       (project "SWR Protector"
         (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "SYB-1593L"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR026") (unit 1)
         )
       )

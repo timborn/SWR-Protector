@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATX209
+D Panasonic DPDT Non-Latching Relay PCB Mount, 5V dc Coil, 2 A
+K
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/117941/NAIS/TX2-5V.html
+$ENDCMP
+#
+#End Doc Library
