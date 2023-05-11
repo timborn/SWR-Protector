@@ -1,0 +1,18 @@
+(footprint "VIA-0.6mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 662874c4-dbe2-4d83-80d9-ad2f2bfb94e6)
+  )
+  (fp_text value "VIA-0.6mm" (at 0 -3.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d84035c4-2579-4e03-828d-9c93037152db)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0b883eab-fb21-494e-82a9-597f2ee3a8b3)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers "*.Cu")
+    (zone_connect 2) (tstamp a783c1bd-efed-4bc7-bf28-82b7dc305c3c))
+)

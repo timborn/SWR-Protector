@@ -38,7 +38,9 @@ My notes to myself about problems, solutions, ideas, questions, ...
     - https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all#editing-a-pcb-layout
     0.635mm = 25 mil, 1.27mm = 50 mil  
 18: DONE: ground plane fill top layer
-19. TODO: when you get ground plane both size add tons of vias
+19. DONE: when you get ground plane both size add tons of vias
+    Good explaination of via stiching techniques: 
+    https://www.youtube.com/watch?v=Hp5ngKtl7S4
 20. DONE: trace size 1mm; power net 2.5mm
     Fix: (in PCB editor)
     Edit / Select All

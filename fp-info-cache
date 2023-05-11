@@ -1,4 +1,4 @@
-21675811753249663
+21677495509857363
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63369,6 +63369,13 @@ Mounting Hardware, inside through hole 4.5mm, height 10, Wuerth electronics 9774
 Mounting 4.5mm 9774100982
 0
 8
+1
+MyLibrary
+VIA-0.6mm
+
+
+0
+1
 1
 NetTie
 NetTie-2_SMD_Pad0.5mm
