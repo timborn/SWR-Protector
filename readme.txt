@@ -1,4 +1,4 @@
-Tue May  9 08:26:23 MST 2023
+Thu May 11 11:58:33 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -19,11 +19,12 @@ My notes to myself about problems, solutions, ideas, questions, ...
 10. "Normal" LEDs are 5mm size
 11. A common ½W resistor measures about 9.2mm across, 
     while a smaller ¼W resistor is about 6.3mm long.
-12. TODO: find a board size that lends itself to a box
+12. DONE: find a board size that lends itself to a box
     look for Hammond 1590 series die cast aluminum
     I don't think these die cast boxes will do.  Something with faceplates
     will be easier to drill for BNC & barrel jacks, and assemble.
-13. TODO: approriate mounting holes for #12
+    Ended up using 1593L, which has faceplates and approx size of QDX.
+13. DONE: approriate mounting holes for #12 - template provided holes
 14. DONE: several parts missing 3D images: barrel jack, relay, DIPs
 15. DONE: barrel jack should be replaced with 2-pin variety
     ended up using 3-pin for footprint and model as Ron says that's common
