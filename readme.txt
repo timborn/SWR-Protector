@@ -1,4 +1,4 @@
-Thu May 11 11:58:33 MST 2023
+Fri May 12 07:08:14 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -63,3 +63,19 @@ My notes to myself about problems, solutions, ideas, questions, ...
     but in the process I lost my 3D models for several parts.  
     Pulled them in again, but the barrel jack is not the correct part
     for those holes (TODO).
+29. SOLVED/DONE - when I did a reboot for v0.8 I started with Hammond
+    1593L template from DigiKey partners.
+    https://github.com/Digi-Key/digikey-partner-kicad-library
+    It was that template that also made changes to Board Setup that was
+    causing errors with placement of TO-92 package.  DRC was complaining
+    that solder mask was too close, and it was implicating the pin
+    placement for a very ordinary part.
+
+    After painstaking side-by-side comparison I observe the following 
+    changes in (PCB) File / Board Setup:
+    - Solder Mask/Paste 
+      Solder mask expansion 0.051mm (was 0)
+      Solder mask minimum web width 0.25mm (was 0) <-- this is the problem
+    - Constraints
+      Minimum track width 0.2mm (was 0)
+      Minimum via diameter 0.4mm (was 0.5mm)

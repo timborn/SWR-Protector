@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|120650000|115160000|bec39157-3aad-4351-a349-f06b43cb49cc|13e83a19-d3dd-420d-8f7f-5ca8d5cc21c1",
+        "solder_mask_bridge|121395000|115160000|4953d21b-2c56-45e6-8d3b-621df66f753a|bec39157-3aad-4351-a349-f06b43cb49cc",
+        "solder_mask_bridge|159275000|112170000|535dc08e-bf92-4d3c-a2f5-fdfa9f0bdfaf|8c3f2f86-701d-422b-a2d4-15443f1e4249",
+        "solder_mask_bridge|160020000|112170000|8c3f2f86-701d-422b-a2d4-15443f1e4249|df1e6b59-94ce-4bf9-80ac-6a201e8070ea"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -439,8 +444,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 1.5,
+        "via_drill": 0.8,
         "wire_width": 6
       }
     ],
