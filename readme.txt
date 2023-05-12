@@ -1,4 +1,4 @@
-Fri May 12 07:08:14 MST 2023
+Fri May 12 13:48:36 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -51,14 +51,16 @@ My notes to myself about problems, solutions, ideas, questions, ...
 22. DONE: switched power should be on same side as transceiver 
 23: DONE: junction dot got huge when I added wider traces.
     Fix is File / Schematic Setup / Formatting / Junction dot size: smallest
-24. TODO: what is correct placement for barrel jack on edge of board?
-25. TODO: what is correct placement for BNC on edge of board?
+24. DONE: what is correct placement for barrel jack on edge of board?
+25. DONE: what is correct placement for BNC on edge of board?
+    keep the silk screen footprint on the board.  Connector will extend out.
 26. DONE: orient toroids (transformers) on edge rather than flat
     Found this in someone else's design:
     FT37-43
       <footprint>Inductor_THT:L_Toroid_Vertical_L10.0mm_W5.0mm_P5.08mm
     It only had two pads, but it might form the basis for a custom part.
-27. TODO: when it's time to mfgr, review fab specs.  What's "fiducial"?
+27. DONE: when it's time to mfgr, review fab specs.  What's "fiducial"?
+    Used for SMT, pick & place and inspection tools.
 28. DONE: fix warnings about 'footprint does not match copy in library',
     but in the process I lost my 3D models for several parts.  
     Pulled them in again, but the barrel jack is not the correct part
@@ -79,3 +81,8 @@ My notes to myself about problems, solutions, ideas, questions, ...
     - Constraints
       Minimum track width 0.2mm (was 0)
       Minimum via diameter 0.4mm (was 0.5mm)
+30. SOLVED/DONE - new via stitching solution.  Download a copy of plugin
+    from https://github.com/jsreynaud/kicad-action-scripts
+    In PCB tool Tools / External Plugins / Reveal Plugin Folder in Finder
+    That's where you put the download.  There's also a Refresh option in 
+    there once it's in place.  The rest is easy.  And it works.

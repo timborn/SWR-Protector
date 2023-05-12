@@ -7,7 +7,7 @@
   (title_block
     (title "SWR Protector WA7GIL")
     (date "2023-05-12")
-    (rev "v0.9")
+    (rev "v1.0")
   )
 
   (lib_symbols
