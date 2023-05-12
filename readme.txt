@@ -86,3 +86,4 @@ My notes to myself about problems, solutions, ideas, questions, ...
     In PCB tool Tools / External Plugins / Reveal Plugin Folder in Finder
     That's where you put the download.  There's also a Refresh option in 
     there once it's in place.  The rest is easy.  And it works.
+31. Send To Fab: zip file with gerber + drill file output
