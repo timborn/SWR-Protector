@@ -7,8 +7,8 @@
   (paper "USLetter")
   (title_block
     (title "SWR Protector WA7GIL")
-    (date "2023-05-11")
-    (rev "v0.8")
+    (date "2023-05-12")
+    (rev "v0.9")
   )
 
   (layers
@@ -49,7 +49,6 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0.051)
-    (solder_mask_min_width 0.11)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
