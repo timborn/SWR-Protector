@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.85,
+          "height": 1.35,
+          "width": 1.35
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -56,10 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "solder_mask_bridge|120650000|115160000|bec39157-3aad-4351-a349-f06b43cb49cc|13e83a19-d3dd-420d-8f7f-5ca8d5cc21c1",
-        "solder_mask_bridge|121395000|115160000|4953d21b-2c56-45e6-8d3b-621df66f753a|bec39157-3aad-4351-a349-f06b43cb49cc",
-        "solder_mask_bridge|159275000|112170000|535dc08e-bf92-4d3c-a2f5-fdfa9f0bdfaf|8c3f2f86-701d-422b-a2d4-15443f1e4249",
-        "solder_mask_bridge|160020000|112170000|8c3f2f86-701d-422b-a2d4-15443f1e4249|df1e6b59-94ce-4bf9-80ac-6a201e8070ea"
+        "lib_footprint_mismatch|196890000|90165000|82c76f25-2d86-4ab0-8076-741317a1f649|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
