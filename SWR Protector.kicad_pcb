@@ -523,6 +523,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/models/connectors_rf/conn_rf.3dshapes/bnc_90_1-1337543-0.wrl"
+      (offset (xyz 0 12.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (footprint "ATX209:ATX209" (layer "F.Cu")
@@ -987,6 +992,11 @@
       (net 2 "GND") (pintype "passive") (tstamp 2c5d92cb-224f-4362-90f1-0712d4288179))
     (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/models/LUMBERG-NEB-21-R.wrl"
+      (offset (xyz -6.25 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1458,6 +1468,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/models/connectors_rf/conn_rf.3dshapes/bnc_90_1-1337543-0.wrl"
+      (offset (xyz 0 12.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (layer "F.Cu")
@@ -1899,6 +1914,11 @@
       (net 2 "GND") (pintype "passive") (tstamp 9007c51a-0f99-421a-8e4f-7e01caf70820))
     (model "${KICAD6_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/models/LUMBERG-NEB-21-R.wrl"
+      (offset (xyz -6 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
