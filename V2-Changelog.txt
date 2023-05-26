@@ -1,0 +1,19 @@
+Fri May 26 12:14:27 MST 2023
+----------------------------
+
+Changes for V2.0
+
+1. move barrel jack further out on edge of board so it's closer to case 
+   HOW FAR?
+### LM358 supplied with +12V instead of +5V
+2. REMOVE trace from LM358 pin 8 to pin 1 on relay K2
+3. REMOVE BOTTOM trace from LM358 pin 8 to C3 pin 1
+4. ADD whitewire on BOTTOM from LM358 pin 8 to J2 (barrel jack) pin 1 (+12V)
+5. ADD whitewire on BOTTOM from C3 pin 1 to K2 (relay) pin 1
+6. label diodes better
+7. U1 & Q1 would be better with 0.1" pin spacing
+8. pretty sure Ron had additional comments I cannot find ...
+9. pad a bit of space around RV1 so we can use alternate parts
+10. C2/D4 labeling needs clarification
+11. REMOVE silkscreen 1N270 (two places)
+12. board mounting holes need more spacing away from circuit traces

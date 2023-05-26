@@ -1,0 +1,21 @@
+Fri May 26 07:44:50 MST 2023
+----------------------------
+
+#include BOM
+
+Diodes are silk screened with square on cathode(-).
+Cathode is negative (gnd) side with band on diode.  
+RON SAYS TO PUT THE CATHODE (-) INTO SQUARE HOLE.
+NOTE: use the other diode symbol next time.
+
+NOTE: C2/D4 labeling needs clarification
+
+Order Of Assembly
+1. caps C1, C2, C3, C4
+2. diodes D1-4
+3. resistors R1-8 and RV1
+4. transistor Q1
+5. wind and install toroids T1, T2. 
+   consider insulated wire here
+6. socket for LM358 (if you plan to socket this)
+
