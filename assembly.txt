@@ -31,7 +31,7 @@ Calibration
 4. no LED light
 5. measure pin 2 on LM358 and adjust pot 
    Ron suggests 370mV
-   Tim ended up at 1.25V
+   Tim ended up at 1.35V
 6. say a prayer and try it
    If you have a dummy load, you should be able to xmit into it without 
    tripping.

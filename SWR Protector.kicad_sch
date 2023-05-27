@@ -6,8 +6,8 @@
 
   (title_block
     (title "SWR Protector WA7GIL")
-    (date "2023-05-12")
-    (rev "v1.0")
+    (date "2023-05-27")
+    (rev "v1.1")
   )
 
   (lib_symbols
@@ -2170,36 +2170,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 129.54 161.29 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4bf8c81b-c162-4c73-898e-b62b4e843509)
-    (property "Reference" "#PWR020" (at 129.54 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 129.54 166.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 129.54 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 129.54 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 58b1db4d-1559-4d80-8df8-a3d195be2ab9))
-    (instances
-      (project "SWR Protector"
-        (path "/46027dd5-036f-43c6-98e1-c4cfe473ecd7"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "SWR Protector"
-        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:Transformer_1P_1S") (at 99.06 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c6ea0c8-8127-4f91-845c-9e6ef79b73f8)
@@ -3093,6 +3063,31 @@
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
           (reference "#PWR028") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 129.54 161.29 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ad8d1549-48e8-4b4d-8a2d-2b5bb7dfccdc)
+    (property "Reference" "#PWR031" (at 129.54 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 129.54 166.37 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 129.54 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 859a5b19-8878-4804-83b6-a052086dcf14))
+    (instances
+      (project "SWR Protector"
+        (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
+          (reference "#PWR031") (unit 1)
         )
       )
     )

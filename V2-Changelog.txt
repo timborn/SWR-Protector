@@ -1,20 +1,23 @@
-Fri May 26 12:14:27 MST 2023
+Sat May 27 10:54:43 MST 2023
 ----------------------------
 
 Changes for V2.0
 
-1. move barrel jack further out on edge of board so it's closer to case 
-   HOW FAR?
+_X_ move barrel jack further out on edge of board so it's closer to case 
+   HOW FAR?  Put silk screen just over edge of board so jack is very 
+   close to faeplate.
 ### LM358 supplied with +12V instead of +5V
-2. REMOVE trace from LM358 pin 8 to pin 1 on relay K2
-3. REMOVE BOTTOM trace from LM358 pin 8 to C3 pin 1
-4. ADD whitewire on BOTTOM from LM358 pin 8 to J2 (barrel jack) pin 1 (+12V)
-5. ADD whitewire on BOTTOM from C3 pin 1 to K2 (relay) pin 1
+X. REMOVE trace from LM358 pin 8 to pin 1 on relay K2
+X. REMOVE BOTTOM trace from LM358 pin 8 to C3 pin 1
+X. ADD whitewire on BOTTOM from LM358 pin 8 to J2 (barrel jack) pin 1 (+12V)
+X. ADD whitewire on BOTTOM from C3 pin 1 to K2 (relay) pin 1
 
-Your items 2,3,4&5 ….. on the next version just reroute the trace
-that goes from RV1 to the LM358 then to the relay coil to just go
-from RV1 to the relay coil and then add a trace from +12v to pin 8
-of the LM358.
+   Your items 2,3,4&5 ….. on the next version just reroute the trace
+   that goes from RV1 to the LM358 then to the relay coil to just go
+   from RV1 to the relay coil and then add a trace from +12v to pin 8
+   of the LM358.
+
+_X_ After much discussion this reduces to: put +12V on LM358 pin 8. Done.
 
 6. label diodes better
 7. U1 & Q1 would be better with 0.1" pin spacing
@@ -23,3 +26,4 @@ of the LM358.
 10. C2/D4 labeling needs clarification
 11. REMOVE silkscreen 1N270 (two places)
 12. board mounting holes need more spacing away from circuit traces
+13. center BNC connectors on board edge to make case drilling easier
