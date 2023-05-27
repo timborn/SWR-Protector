@@ -23,7 +23,8 @@ _X_ After much discussion this reduces to: put +12V on LM358 pin 8. Done.
 7. U1 & Q1 would be better with 0.1" pin spacing
 8. ---
 9. pad a bit of space around RV1 so we can use alternate parts
-10. C2/D4 labeling needs clarification
-11. REMOVE silkscreen 1N270 (two places)
-12. board mounting holes need more spacing away from circuit traces
-13. center BNC connectors on board edge to make case drilling easier
+_X_ C2/D4 labeling needs clarification
+_X_ REMOVE silkscreen 1N270 (two places)
+_X_ board mounting holes need more spacing away from circuit traces
+    (PCB) File / Board Setup / Copper to edge clearance: 1.0mm (was 0.1mm)
+_X_ center BNC connectors on board edge to make case drilling easier
