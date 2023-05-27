@@ -87,3 +87,6 @@ My notes to myself about problems, solutions, ideas, questions, ...
     That's where you put the download.  There's also a Refresh option in 
     there once it's in place.  The rest is easy.  And it works.
 31. Send To Fab: zip file with gerber + drill file output
+32. SWR Protector BOM.ods is both BOM and cost accounting.
+    I'm using Libre Office.  CSV doesn't handle formulas well, 
+    and numbers doesn't like naming a cell, for some reason.
