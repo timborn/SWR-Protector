@@ -15,7 +15,34 @@ Order Of Assembly
 2. diodes D1-4
 3. resistors R1-8 and RV1
 4. transistor Q1
-5. wind and install toroids T1, T2. 
+5. voltage regulator U1
+6. wind and install toroids T1, T2. 
    consider insulated wire here
-6. socket for LM358 (if you plan to socket this)
+7. socket for LM358 (if you plan to socket this)
+8. power connectors, BNC connectors
+9. relay
+
+
+Calibration
+-----------
+1. verify 12v on input
+2. verify 5v on header pins
+3. verify 12v on output
+4. no LED light
+5. measure pin 2 on LM358 and adjust pot 
+   Ron suggests 370mV
+   Tim ended up at 1.25V
+6. say a prayer and try it
+   If you have a dummy load, you should be able to xmit into it without 
+   tripping.
+   Otherwise raise voltage until the dummy load works.
+   If you have a 2:1 dummy load, you can adjust until that just trips.
+   That will put an upper limit on the amount of reflected pwd allowed.
+
+   If you think your ref voltage is "too high", you can check the
+   voltage from radio to see what it is comparing to.  Using a 100
+   Ohm load (2:1) you can power the radio directly and leave the
+   protector unpowered and measure the voltage on pin 3 of LM358
+   when keying (briefly) and see what voltage the comparator is
+   comparing it’s reference (pin 2) to.
 
