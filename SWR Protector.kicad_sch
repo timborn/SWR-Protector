@@ -1684,7 +1684,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1745,7 +1745,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1776,7 +1776,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1806,7 +1806,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1836,7 +1836,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1873,7 +1873,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1934,7 +1934,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1996,7 +1996,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2026,7 +2026,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2094,7 +2094,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2124,7 +2124,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2133,7 +2133,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 99.06 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42993dda-496c-4241-91d7-814c49450a93)
-    (property "Reference" "J5" (at 91.44 97.79 90)
+    (property "Reference" "J3" (at 91.44 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_02x03" (at 82.55 100.33 90)
@@ -2154,7 +2154,7 @@
     (instances
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "J5") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2184,7 +2184,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2254,7 +2254,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2284,7 +2284,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2382,7 +2382,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2446,7 +2446,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "J1") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2477,7 +2477,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2542,7 +2542,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2572,7 +2572,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2634,7 +2634,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2665,7 +2665,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "C4") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2696,7 +2696,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2726,7 +2726,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2756,7 +2756,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2787,7 +2787,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2818,7 +2818,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2848,7 +2848,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2909,7 +2909,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2940,7 +2940,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "J4") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2970,7 +2970,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3022,7 +3022,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "K2") (unit 1)
+          (reference "K1") (unit 1)
         )
       )
     )
@@ -3052,7 +3052,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3082,7 +3082,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3091,7 +3091,7 @@
   (symbol (lib_id "power:+12V") (at 129.54 161.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad8d1549-48e8-4b4d-8a2d-2b5bb7dfccdc)
-    (property "Reference" "#PWR031" (at 129.54 157.48 0)
+    (property "Reference" "#PWR019" (at 129.54 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 129.54 166.37 0)
@@ -3107,7 +3107,7 @@
     (instances
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3168,7 +3168,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3198,7 +3198,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3258,7 +3258,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3362,7 +3362,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3392,7 +3392,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3422,7 +3422,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3483,7 +3483,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3513,7 +3513,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3574,7 +3574,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3604,7 +3604,7 @@
       )
       (project "SWR Protector"
         (path "/5ddb5305-6e1d-4af3-a40a-20431dc1473c"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )

@@ -27,7 +27,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+bom
 
 # Mac Crap
 .DS_Store
 *.zip
+
+

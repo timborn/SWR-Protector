@@ -471,7 +471,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "+12V": "12V",
-      "Net-(K2-NC_1)": "12V"
+      "Net-(K1-NC_1)": "12V"
     },
     "netclass_patterns": []
   },
