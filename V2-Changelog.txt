@@ -24,4 +24,4 @@ _X_ route pins 2 & 3 from LM358 to header for CPU to get/display
 _X_ Feature request to add buzzer
     https://www.adafruit.com/product/1536?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAinuZ3PxFUHBhcDEpraVQv1wVtaIGrVho5Hqfe7Bg2wwpAz0RbdhTwaAmcoEALw_wcB
     Ended up using 12V part, same footprint.
-___ Feature request: jumper to disable the "George Option"
+_X_ Feature request: jumper to disable the "George Option"
