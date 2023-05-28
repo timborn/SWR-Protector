@@ -1,4 +1,4 @@
-Sat May 27 16:58:56 MST 2023
+Sun May 28 06:33:53 MST 2023
 ----------------------------
 
 Changes for V2.0
@@ -18,4 +18,6 @@ _X_ board mounting holes need more spacing away from circuit traces
     (PCB) File / Board Setup / Copper to edge clearance: 1.0mm (was 0.1mm)
 _X_ center BNC connectors on board edge to make case drilling easier
 _X_ route pins 2 & 3 from LM358 to header for CPU to get/display 
-    voltage readings (reference and reflected).
+    voltage readings (reference and reflected).  Realizing pin 6 
+    just duplicated the VReflected voltage already on pin 3, I made
+    pin 6 NC.
