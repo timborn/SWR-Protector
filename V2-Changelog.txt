@@ -1,4 +1,4 @@
-Sun May 28 08:50:29 MST 2023
+Sun May 28 14:50:14 MST 2023
 ----------------------------
 
 Changes for V2.0
@@ -25,3 +25,4 @@ _X_ Feature request to add buzzer
     https://www.adafruit.com/product/1536?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAinuZ3PxFUHBhcDEpraVQv1wVtaIGrVho5Hqfe7Bg2wwpAz0RbdhTwaAmcoEALw_wcB
     Ended up using 12V part, same footprint.
 _X_ Feature request: jumper to disable the "George Option"
+_X_ Change 10K trimpot from Bourne to PT10.  Different pinout, vastly cheaper.

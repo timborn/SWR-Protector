@@ -7,7 +7,7 @@
   (title_block
     (title "SWR Protector WA7GIL")
     (date "2023-05-28")
-    (rev "v1.5")
+    (rev "v1.6")
   )
 
   (lib_symbols
@@ -2594,7 +2594,7 @@
     (property "Value" "10K" (at 119.38 147.955 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" (at 121.92 146.05 0)
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical" (at 121.92 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 146.05 0)
