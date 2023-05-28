@@ -1,4 +1,4 @@
-Sun May 28 06:33:53 MST 2023
+Sun May 28 08:50:29 MST 2023
 ----------------------------
 
 Changes for V2.0
@@ -21,3 +21,7 @@ _X_ route pins 2 & 3 from LM358 to header for CPU to get/display
     voltage readings (reference and reflected).  Realizing pin 6 
     just duplicated the VReflected voltage already on pin 3, I made
     pin 6 NC.
+_X_ Feature request to add buzzer
+    https://www.adafruit.com/product/1536?gclid=Cj0KCQjw98ujBhCgARIsAD7QeAinuZ3PxFUHBhcDEpraVQv1wVtaIGrVho5Hqfe7Bg2wwpAz0RbdhTwaAmcoEALw_wcB
+    Ended up using 12V part, same footprint.
+___ Feature request: jumper to disable the "George Option"
