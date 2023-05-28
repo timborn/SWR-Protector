@@ -1,0 +1,22 @@
+Sun May 28 06:57:22 MST 2023
+----------------------------
+
+Checklist before you send it to the factory.
+
+___ Update the page settings and version number on schematic & PCB.
+___ ERC
+___ Fill all pours!
+___ run via stitcher
+___ DRC
+___ Generate Gerbers: 
+    File / Plot  
+    Layers: 
+	F.Cu 
+	B.Cu 
+	F.Silkscreen 
+	B.Silkscreen 
+	F.Mask 
+	B.Mask 
+	Edge.Cuts
+___ Generate Drill File.  Put output in same folder with Gerbers
+
