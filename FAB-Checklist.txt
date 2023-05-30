@@ -1,4 +1,4 @@
-Sun May 28 06:57:22 MST 2023
+Mon May 29 14:46:40 MST 2023
 ----------------------------
 
 Checklist before you send it to the factory.
@@ -19,4 +19,16 @@ ___ Generate Gerbers:
 	B.Mask 
 	Edge.Cuts
 ___ Generate Drill File.  Put output in same folder with Gerbers
+___ verify Gerbers using Gerber Viewer in KiCad
+    Suggested order: B.CU, B.Mask, B.Silkscreen, toggle each layer to 
+    look for outliers.  Add Edge.Cuts.
+    Repeat for F.*
+___ zip up gerber/ into gerber.zip
+___ PCBWAY
+
+NB 85mm x 60mm approx.  It's actually a couple mm larger than actual board.
+
+
+
+
 
