@@ -1,4 +1,4 @@
-Mon May 29 14:46:40 MST 2023
+Mon May 29 17:52:54 MST 2023
 ----------------------------
 
 Checklist before you send it to the factory.
@@ -25,6 +25,7 @@ ___ verify Gerbers using Gerber Viewer in KiCad
     Repeat for F.*
 ___ zip up gerber/ into gerber.zip
 ___ PCBWAY
+___ git tag & push tags to origin
 
 NB 85mm x 60mm approx.  It's actually a couple mm larger than actual board.
 

@@ -1,4 +1,4 @@
-Fri May 12 13:48:36 MST 2023
+Mon May 29 17:51:59 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -90,3 +90,5 @@ My notes to myself about problems, solutions, ideas, questions, ...
 32. SWR Protector BOM.ods is both BOM and cost accounting.
     I'm using Libre Office.  CSV doesn't handle formulas well, 
     and numbers doesn't like naming a cell, for some reason.
+33. Git Tag each version and make sure you push tags to origin
+    https://git-scm.com/book/en/v2/Git-Basics-Tagging
