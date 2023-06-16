@@ -1,4 +1,4 @@
-Mon May 29 17:51:59 MST 2023
+Fri Jun 16 08:43:45 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -92,3 +92,7 @@ My notes to myself about problems, solutions, ideas, questions, ...
     and numbers doesn't like naming a cell, for some reason.
 33. Git Tag each version and make sure you push tags to origin
     https://git-scm.com/book/en/v2/Git-Basics-Tagging
+34. TODO: Ron thinks the power connections should be swapped, end for end, 
+    so the power for radio and radio antenna connections come out the same side.
+    Is this true?  He says if it's swapped, the relay won't stay triggered.
+35. If the power connections are material, label the board so the ends are clear.
