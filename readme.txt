@@ -1,4 +1,4 @@
-Fri Jun 16 08:43:45 MST 2023
+Sun Jun 18 12:08:01 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -100,4 +100,6 @@ My notes to myself about problems, solutions, ideas, questions, ...
 36. 230617 Ron> There is still about a 1 mm gap between the DC connectors 
     and the end caps but it works like this.
     Tim> Dc shifted by 1mm. Noted
-
+    230618 Ron> The DC connectors are close enough now to work fine with 
+    the standard depth plugs. No need to move them further out unless 
+    making other changes
