@@ -92,7 +92,12 @@ My notes to myself about problems, solutions, ideas, questions, ...
     and numbers doesn't like naming a cell, for some reason.
 33. Git Tag each version and make sure you push tags to origin
     https://git-scm.com/book/en/v2/Git-Basics-Tagging
-34. TODO: Ron thinks the power connections should be swapped, end for end, 
+34. DONE: Ron thinks the power connections should be swapped, end for end, 
     so the power for radio and radio antenna connections come out the same side.
     Is this true?  He says if it's swapped, the relay won't stay triggered.
-35. If the power connections are material, label the board so the ends are clear.
+    THIS WAS ALREADY DONE somewhere between v0.5 and v0.8.  See #22 above.
+35. Label the board so the ends are clear.  Everything on LED side goes to radio.
+36. 230617 Ron> There is still about a 1 mm gap between the DC connectors 
+    and the end caps but it works like this.
+    Tim> Dc shifted by 1mm. Noted
+
