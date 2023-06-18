@@ -1,4 +1,4 @@
-Sun Jun 18 12:08:01 MST 2023
+Sun Jun 18 12:15:33 MST 2023
 ----------------------------
 
 My notes to myself about problems, solutions, ideas, questions, ...
@@ -96,10 +96,13 @@ My notes to myself about problems, solutions, ideas, questions, ...
     so the power for radio and radio antenna connections come out the same side.
     Is this true?  He says if it's swapped, the relay won't stay triggered.
     THIS WAS ALREADY DONE somewhere between v0.5 and v0.8.  See #22 above.
-35. Label the board so the ends are clear.  Everything on LED side goes to radio.
+35. Label the board so the ends are clear.  Everything on LED side goes 
+    to radio.
 36. 230617 Ron> There is still about a 1 mm gap between the DC connectors 
     and the end caps but it works like this.
     Tim> Dc shifted by 1mm. Noted
     230618 Ron> The DC connectors are close enough now to work fine with 
     the standard depth plugs. No need to move them further out unless 
     making other changes
+37. Center BNC on board and make offset to barrel jack identical on both ends.
+    I want to be able to create a dilling guide for the end plates.
