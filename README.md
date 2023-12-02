@@ -12,4 +12,5 @@ The whitewire changes were solved with a single change to the
 schematics, so V1.1 or better of the schematics would be the one
 to look at.
 
-V2.0 in the works.
+V2.0 now includes the "George Option", an optional alarm so you 
+can hear when your radio has been shut off my the SWR Protector.
