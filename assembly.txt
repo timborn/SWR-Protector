@@ -1,3 +1,31 @@
+Tue Dec  5 08:23:22 MST 2023
+----------------------------
+Lots of details and photos on github:
+https://github.com/timborn/SWR-Protector
+NB to see the schematics and PCB from V1, git has a tag 'V1.0'.
+Of course the documentation is often learned later, so the more
+recent version in git probably has better documentation (like this!).
+
+On V1.0 boards ONLY there are two white wire changes required.
+
+On the component side, there is a trace running diagonally between 
+LM358 and K1.  Cut that trace.  See photo 
+SWR-Protector/docs/v1.0/SWR Protector V1 white wire mod top.jpg
+in git.
+
+On the back side, there are three traces running diagonally, in parallel.
+They are all under LM358.  The lower trace trace that snakes around pin 4
+of the LM328 needs to be cut.  See photo 
+SWR-Protector/docs/v1.0/SWR Protector V1 white wire mod bottom.jpg
+in git.
+
+Solder white wires on the back.
+Solder white wire #1 between +12V lug (pin 1) on J2 and pin 8 (Vcc) on LM358.
+Solder white wire #2 between K2 pin 1 (+5V) and RV1 pin 1 (+5V).
+See photo SWR-Protector/docs/v1.0/SWR Protector V1 white wire mod bottom.jpg
+in git.
+
+
 Fri May 26 07:44:50 MST 2023
 ----------------------------
 
